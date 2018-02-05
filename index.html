@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Firebase Reference -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    
+    
+  <script type="text/javascript" src="javascript.js"></script>
+  
+  
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <div class="jumbotron text-center">
+        
+            <h1>Anytime is Train Times</h1>
+                <h4>Choo Choo. Chee Chee.</h4>
+    </div>
+    <div>
+        <table class="table table-boardered" id=table>
+            <tr>Current Train Schedule</tr>
+            <tr class-strong>
+                
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+
+            </tr>
+          </table>
+    </div>
+
+     <div>
+            <form>
+                    <div class="form-group">
+                      <label for="exampleInputTrainName">Train Name</label>
+                      <input type="Train name" class="form-control" id="train-name" placeholder="Train Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputDestination">Destination</label>
+                      <input type="destination" class="form-control" id="destination" placeholder="Destination">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleInputFirstTrain">First Train</label>
+                            <input type="firstTrain" class="form-control" id="first-train" placeholder="First Train">
+                          </div>
+                          <div class="form-group">
+                                <label for="exampleInputFrequency">Frequency (min)</label>
+                                <input type="frequncy" class="form-control" id="frequency" placeholder="Freuency (min)">
+                              </div>
+                      
+                    </div>
+                    <button type="submit" class="btn btn-default" id="submit">Submit</button>
+                  </form>
+
+     </div>
+</body>
+</html>
